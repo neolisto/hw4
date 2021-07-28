@@ -26,4 +26,4 @@ rm -r tmp
 rm -r conf.d/
 
 #run container with from true-named image
-docker run -dti -p80:80 "$k"
+docker run -d -p80:80 "$k"
